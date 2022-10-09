@@ -40,6 +40,7 @@ nav {
 }
 .nav-btn i {
   font-size: 1.25rem;
+  color: black;
 }
 .nav-link {
   display: block;
@@ -294,7 +295,7 @@ nav {
   border-radius: 50px;
   padding: 1.5rem 1.5rem;
   background-color: rgba(204, 199, 199, 0.9);
-  margin: auto auto;
+  margin: 50px auto;
 }
 
 .white-btn {
@@ -411,6 +412,204 @@ nav {
 }
 
 
+/* contract */
+
+
+  .contract {
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95%;
+  height: 25rem;
+  padding: 30px;
+  margin: 10px auto;
+  border-radius: 10px;
+  flex-wrap: wrap; 
+  background-color: rgba(25, 61, 69, 1);
+  }
+  
+  .contract .contract-aricle {
+    width: 40rem;
+  }
+  
+  .contract h2 {
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .contract p {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .contract-btn {
+    margin-top: 80px;
+  }
+  .contract-btn a {
+    padding: 1.3rem 2rem;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .contract-btn a:hover {
+    color: white;
+    background-color: aqua;
+  }
+  .contract img{
+   max-height: 200px;
+
+  }
+  
+
+
+  /* community */
+
+  .community h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .community-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .community-column{
+    border: 1px solid grey;
+    padding: 30px ; 
+  }
+  .community-column h3{
+    font-weight: bold;
+    margin: 5px 1px;
+    font-size: 20px;
+  }
+  .community-column p{
+    font-size: 15px;
+  }
+  .future{
+    margin: 50px 0;
+    padding: 30px;
+  }
+  .future img{
+    margin-bottom: 15px;
+  }
+  .future h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 1px;
+  }
+  .future p{
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .future a{
+    color: rgb(252, 70, 252);
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+
+
+  /* footer 1 */
+.footer-one{
+  padding: 20px;
+  background-color: rgb(48, 43, 43);
+  color: white;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-one p{
+  text-align: center;
+  font-size: 18px;
+  margin: 20px auto;
+}
+.icons span{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.icons span i{
+  margin-right: 5px;
+}
+
+.footer-two{
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: auto;
+  border-bottom: 1px solid gray;
+}
+.footer-two img{
+  height: 3rem;
+  margin-top: 15px ;
+  margin-bottom: 15px;
+  margin-left: 2rem;
+  padding: 0; 
+}
+.footer-two p{
+  margin-right: 2rem;
+  margin-left: 0;
+}
+.footer-three{
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid gray;
+}
+.footer-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.footer-column{
+  padding: 30px;
+}
+ .footer-column h3{
+  margin: 15px auto;
+  font-weight: bold;
+  font-size: 18px;
+ }
+ .footer-column p{
+  margin: 10px auto;
+  font-size: 15px;
+ }
+ .footer-column a{
+  background-color: rgb(74, 88, 88);
+  color: aqua;
+ }
+
+.last-footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.last-footer h3{
+  margin-left: 2rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+.last-footer p{
+  font-size: 16px;
+}
+
+
+
+
+
+
 
 
 
@@ -425,7 +624,14 @@ nav {
   .nav-btn {
     display: block;
   }
-
+  .navbar {
+    display: block;
+  }
+  .nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .nav-links {
     display: flex;
     flex-direction: column;
@@ -532,4 +738,41 @@ nav {
     align-items: center;
     flex-direction: column;
   }
+  .community-row{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contract{
+    height: 40rem;
+    padding: 30px;
+  }
+ .contract img{
+  width: px;
+  height: 25rem;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .future{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ }
+ .icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+ .footer-row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+ .last-footer{
+  flex-direction: column;
+ }
+ .last-footer h3{
+  margin: 10px auto;
+ }
 }
